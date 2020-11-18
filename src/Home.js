@@ -17,9 +17,10 @@ class Home extends Component {
       <View style={styles.container}>
         <FlatList
           data={navigationList}
+          keyExtractor={item => item.id.toString()}
           renderItem={({ item }) => (
             <TouchableHighlight
-              key={item.key}
+              key={item.id}
               onPress={() => this.goTo(item.goTo)}
             >
               <View style={styles.card}>
