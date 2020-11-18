@@ -14,8 +14,6 @@ Awesome starter template to help you build mobile app with React native and Expo
 
 * [Install](#install)
 * [Usage](#usage)
-* [Code of Conduct](#code-of-conduct)
-* [License](#license)
 
 ### Install
 
